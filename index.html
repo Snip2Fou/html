@@ -10,12 +10,14 @@
               rel="stylesheet" 
               integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
               crossorigin="anonymous"/> 
+        <script src="https://kit.fontawesome.com/b7c985adfd.js" crossorigin="anonymous"></script>
     </head> 
     <body>
+
       <!-- Barre de navigation -->
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand text-danger" href="#">Mon CV</a>
+          <a class="navbar-brand text-danger fs-2" href="#">Mon CV</a>
           <!-- Défilement de la barre de navigation -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" 
                   aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,28 +26,70 @@
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-scoll" style="--bs-scroll-height:100px;">
               <!-- Objets de la barre de navigation -->
+              <div class="navbar-divider"></div>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#information_personnelle">Informations personnelles</a>
+                <a class="nav-link active fs-4" aria-current="page" href="#information_personnelle">Informations personnelles</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">2</a>
+                <a class="nav-link active fs-4" aria-current="page" href="#">Profil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">3</a>
+                <a class="nav-link active fs-4" aria-current="page" href="#">3</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">4</a>
+                <a class="nav-link active fs-4" aria-current="page" href="#">4</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">5</a>
+                <a class="nav-link active fs-4" aria-current="page" href="#">5</a>
               </li>
             </ul>
           </div>
         </div>
       </nav> 
-      <div id="information_personnelle">
-      
+
+      <br>
+
+      <div id="information_personnelle" class="p-3 bg-light  border border-dark border-opacity-25 border-start-0 rounded-end">
+        <br>  
+        <div class="text-center fw-bold">
+          <h2>Choquet Evan</h2>
+        </div>    
+        <div class="container text-start">
+          <div class="row">
+            <div class="col-2">
+              <img src="/img/photo_identite.jpg" class="img-fluid img-thumbnail rounded" alt="photo_identite">
+            </div>
+            <div class="col">
+              <br>
+              <br>
+              <h5 class="align-bottom"><i class="fas fa-location-dot"></i>
+                <a href="https://www.google.fr/maps/place/4+Rue+Cirbeau,+02320+AnizyS-le-Grand/@49.5058212,3.446673,17z/data=!3m1!4b1!4m5!3m4!1s0x47e84f88f2565c31:0x8d8881f4a5db29a!8m2!3d49.5058177!4d3.4488617"
+                class="link-dark"> 4 rue Cirbeau, Anizy-le-Grand 02320</a></h5>
+              <h5 class="align-bottom"><i class="fas fa-at"></i> echoquet@gaming.tech</h5>
+              <h5 class="align-bottom"><i class="fas fa-phone"></i> 07 68 26 57 57</h5>
+              <h5 class="align-bottom"><i class="fa-brands fa-linkedin"></i>
+                <a href="https://fr.linkedin.com/" class="link-dark"> Linkedin</a></h5>
+            </div> 
+          </div>
+        </div>
+        <br>
       </div>
+
+      <br>
+
+      <div class="row mx-2 my-2 ">
+        <div class="col-4 ">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore expedita adipisci cum inventore veritatis dolorem nihil explicabo eius exercitationem soluta quidem velit, officia dignissimos quam deserunt dolorum vitae facilis perspiciatis!
+        </div>
+
+        <div class=" col-8">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa sequi soluta iste. Culpa ipsum necessitatibus placeat quis assumenda porro tempora, optio esse debitis deserunt quidem nobis hic, facere dicta maxime!
+        </div>
+      </div>
+      
+
+      
+
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
               integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
