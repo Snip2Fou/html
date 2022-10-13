@@ -1,7 +1,21 @@
-table{
-    border-collapse: collapse;
+.fas{
+    color: red;
 }
 
-td{
-    margin: 300px;
+.fa-brands{
+    color: red;
+}
+
+h2{
+    color: red;
+}
+
+p{
+    font: 120% large serif ;
+    font-weight: 750;
+    
+}
+
+h6{
+    color: red;
 }
